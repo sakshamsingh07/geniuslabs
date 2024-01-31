@@ -1,0 +1,439 @@
+.custom-bg {
+  background-color: #fdfbfbff; /* Replace with your desired background color */
+}
+.arrow {
+  width: 1.625rem;
+  height: 1.625rem;
+  flex-shrink: 0;
+  margin-top: 1.3rem;
+  margin-left: 0.5rem;
+}
+a.arrowbutton {
+  text-decoration: none; /* Remove underline */
+  background-color: transparent; /* Remove any background color */
+  border: none; /* Remove any border */
+  outline: none; /* Remove the outline when clicked */
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile devices */
+}
+.logo {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: -2rem;
+  width: 8.125rem;
+  height: 2.6875rem;
+  border-radius: 0.7rem;
+}
+.done {
+  margin-top: 3rem;
+  margin-left: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 19.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #139cdd;
+}
+.progress-bar-child,
+.progress-bar-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 1rem;
+  margin-top: -1rem;
+  background-color: gainsboro;
+}
+.progress-bar-item {
+  width: 70%;
+  right: 83.33%;
+  background-color: #139cdd;
+}
+.progres-bar {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 16px;
+  width: 314px;
+  height: 15px;
+}
+.almostdone {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+  font-weight: 700;
+  color: #0c5394;
+  display: inline-block;
+  width: 17rem;
+  height: 1.5rem;
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.human-logo-1 {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  width: 35.69px;
+  height: 32px;
+  object-fit: cover;
+}
+.your-name {
+  cursor: pointer;
+  position: absolute;
+  top: 45px;
+  left: 43px;
+  display: inline-block;
+  width: 76px;
+  height: 16px;
+  font-family: "Avenir";
+  font-weight: 800;
+}
+.contact-details {
+  cursor: pointer;
+  position: absolute;
+  top: 302px;
+  left: 43px;
+  display: inline-block;
+  width: 106px;
+  height: 16px;
+  font-family: "Avenir";
+  font-weight: 800;
+}
+.child-current-school {
+  cursor: pointer;
+  position: absolute;
+  top: 216px;
+  left: 48px;
+  display: inline-block;
+  width: 200px;
+  height: 16px;
+  font-family: "Avenir";
+  font-weight: 800;
+}
+.location-logo-1 {
+  position: absolute;
+  top: 118px;
+  left: 10px;
+  width: 35px;
+  height: 32px;
+  object-fit: cover;
+}
+.home-logo-1 {
+  position: absolute;
+  top: 205px;
+  left: 10px;
+  width: 35px;
+  height: 32px;
+  object-fit: cover;
+}
+.phone-logo-1 {
+  position: absolute;
+  top: 296px;
+  left: 8px;
+  width: 35px;
+  height: 32px;
+  object-fit: cover;
+}
+.location {
+  cursor: pointer;
+  position: absolute;
+  top: 127px;
+  left: 44px;
+  display: inline-block;
+  width: 76px;
+  height: 16px;
+  font-family: "Avenir";
+  font-weight: 800;
+}
+.frame-child3 {
+  border: 1px solid gainsboro;
+  /* background-color: white; */
+  position: absolute;
+  top: 5rem;
+  left: 1.2rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 20rem;
+  height: 2rem;
+}
+.frame-child4 {
+  border: 1px solid gainsboro;
+  /* background-color: white; */
+  position: absolute;
+  top: 21.3rem;
+  left: 2.7rem;
+  border-radius: 0px 5px 5px 0px;
+  box-sizing: border-box;
+  width: 10rem;
+  height: 2rem;
+}
+.frame-child5 {
+  border: 1px solid gainsboro;
+  /* background-color: white; */
+  position: absolute;
+  top: 15.4rem;
+  left: 1.2rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 20rem;
+  height: 2rem;
+}
+.frame-child6 {
+  border: 1px solid gainsboro;
+  /* background-color: white; */
+  position: absolute;
+  top: 10rem;
+  left: 1.2rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 20rem;
+  height: 2rem;
+}
+.frame-child7 {
+  position: absolute;
+  top: 21.3rem;
+  left: 1.2rem;
+  border-radius: 5px 0px 0px 5px;
+  /* background-color: white; */
+  border: 1px solid gainsboro;
+  box-sizing: border-box;
+  width: 25px;
+  height: 2rem;
+}
+.div {
+  position: absolute;
+  top: 21.9rem;
+  left: 1.3rem;
+  font-size: smaller;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  font-family: "Avenir";
+  font-weight: 800;
+}
+.human-logo-1-parent {
+  position: absolute;
+  top: 60px;
+  left: 6px;
+  /* background-color: white; */
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  font-size: small;
+}
+/* .genius-labs-website-games-se6 {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 560px;
+    left: 198px;
+    width: 129px;
+    height: 55px;
+    background-image: url("./geniuslabsmemberphoto/geniuslabswebsitegamessection1@3x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  } */
+.submit-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  border-radius: 0.3125rem;
+  position: absolute;
+  width: 6.8rem;
+  height: 1.8rem;
+  top: 25.2rem;
+  right: 7.53%;
+  bottom: 22.6%;
+  left: 14rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  transition: 4s all;
+  background: #0c5394;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.submit {
+  position: absolute;
+  font-size: small;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.1em;
+  top: 0.4rem;
+  left: 0.6rem;
+  display: inline-block;
+  font-family: "Lexend";
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  width: 4.3125rem;
+  height: 0.8125rem;
+  flex-shrink: 0;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0.5rem;
+  left: 5.5rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  object-fit: cover;
+}
+.submit-parent:hover {
+  background-color: #ff6790ff;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.otpinput {
+  border: 1px solid gainsboro;
+  /* background-color: white; */
+  position: absolute;
+  top: 29rem;
+  left: 1.5rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 11.8rem;
+  height: 2rem;
+}
+.otp {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  border-radius: 0.3125rem;
+  position: absolute;
+  width: 6.8rem;
+  height: 1.8rem;
+  top: 29rem;
+  right: 7.53%;
+  bottom: 22.6%;
+  left: 14.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  transition: 4s all;
+  background: #0c5394;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifyotp {
+  position: absolute;
+  font-size: small;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.1em;
+  top: 0.4rem;
+  left: 1.5rem;
+  display: inline-block;
+  font-family: "Lexend";
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  width: 4.3125rem;
+  height: 0.8125rem;
+  flex-shrink: 0;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .arrowbutton {
+    display: none;
+  }
+  .logo {
+    margin-top: 2rem;
+    margin-left: -36rem;
+    width: 12rem;
+    height: auto;
+  }
+  .for-desktop {
+    width: 25rem;
+    height: 38rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 3px solid #2fbbf7;
+    background: #fff;
+    margin-left: 21rem;
+    margin-top: 9rem;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .done {
+    margin-left: 3.2rem;
+  }
+  .almostdone {
+    margin-left: 3.2rem;
+  }
+  .progres-bar {
+    margin-left: 3rem;
+  }
+  .human-logo-1-parent {
+    margin-left: 1rem;
+    margin-top: 0rem;
+  }
+  .submit-parent {
+    margin-left: 1.8rem;
+    margin-top: 0rem;
+  }
+  .otpinput {
+    margin-left: -7.3rem;
+    margin-top: 0.5rem;
+  }
+  .otp {
+    margin-left: -6.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .arrowbutton {
+    display: none;
+  }
+  .logo {
+    margin-top: 2rem;
+    margin-left: -36rem;
+    width: 12rem;
+    height: auto;
+  }
+  .for-desktop {
+    width: 25rem;
+    height: 38rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 3px solid #2fbbf7;
+    background: #fff;
+    margin-left: 30rem;
+    margin-top: 9rem;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .done {
+    margin-left: 3.2rem;
+  }
+  .almostdone {
+    margin-left: 3.2rem;
+  }
+  .progres-bar {
+    margin-left: 3rem;
+  }
+  .human-logo-1-parent {
+    margin-left: 1rem;
+    margin-top: 0rem;
+  }
+  .submit-parent {
+    margin-left: 1.8rem;
+    margin-top: 0rem;
+  }
+  .otpinput {
+    margin-left: -7.3rem;
+    margin-top: 0.5rem;
+  }
+  .otp {
+    margin-left: -6.6rem;
+    margin-top: 0.5rem;
+  }
+}

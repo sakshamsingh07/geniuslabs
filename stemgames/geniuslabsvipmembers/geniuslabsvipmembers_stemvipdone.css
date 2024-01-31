@@ -1,0 +1,231 @@
+.custom-bg {
+  background-color: #fdfbfbff; /* Replace with your desired background color */
+}
+.arrow {
+  width: 1.625rem;
+  height: 1.625rem;
+  flex-shrink: 0;
+  margin-top: 1.3rem;
+  margin-left: 0.5rem;
+}
+a.arrowbutton {
+  text-decoration: none; /* Remove underline */
+  background-color: transparent; /* Remove any background color */
+  border: none; /* Remove any border */
+  outline: none; /* Remove the outline when clicked */
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile devices */
+}
+.logo {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: -2rem;
+  width: 8.125rem;
+  height: 2.6875rem;
+  border-radius: 0.7rem;
+}
+.congrats {
+  margin-top: 3rem;
+  margin-left: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 19.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #139cdd;
+}
+/* .congratulation{
+    margin-top: 3rem;
+    margin-left:1.2rem;
+    font-weight: 700;
+    display: inline-block;
+    width: 19.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    font-family:'Montserrat'; 
+    font-size: 1rem;
+    color: #139CDD;
+} */
+/* .securely-saved{
+    margin-top:5px;
+    margin-left:20px;
+    font-family: 'Montserrat'; 
+    font-size: 0.8125rem;
+    font-weight: 500;
+} */
+.progress-bar-child,
+.progress-bar-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: gainsboro;
+}
+.progress-bar-item {
+  width: 300px;
+  right: 83.33%;
+  background-color: #139cdd;
+}
+.progres-bar {
+  position: absolute;
+  margin-top: 20px;
+  top: -26px;
+  left: 30px;
+  width: 300px;
+  height: 15px;
+}
+.will-reach {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: #0c5394;
+  font-family: "Montserrat";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* .given-number{
+    position: absolute;
+    top: 13.3rem;
+} */
+.dash-line {
+  position: absolute;
+  border-top: 1px dashed #139cdd;
+  box-sizing: border-box;
+  width: 21rem;
+  height: 1px;
+  top: 3rem;
+}
+.play-stem-game,
+.reads-blogs,
+.follow-insta {
+  background-color: transparent;
+  border: none;
+}
+.stem-game,
+.blogs,
+.insta {
+  position: absolute;
+  width: 12rem;
+  height: 3.1rem;
+  /* top:25rem; */
+  left: 10rem;
+}
+.stem-game {
+  top: 8rem;
+}
+.blogs {
+  top: 11rem;
+  left: 9.8rem;
+}
+.insta {
+  top: 14rem;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .arrowbutton {
+    display: none;
+  }
+  .logo {
+    margin-top: 2rem;
+    margin-left: -36rem;
+    width: 12rem;
+    height: auto;
+  }
+  .for-desktop {
+    width: 25rem;
+    height: 38rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 3px solid #2fbbf7;
+    background: #fff;
+    margin-left: 22rem;
+    margin-top: 9rem;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .congrats {
+    margin-left: 3.2rem;
+  }
+  .will-reach {
+    margin-left: 3.2rem;
+    margin-top: 2.2rem;
+  }
+  .progres-bar {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .dash-line {
+    margin-top: -1rem;
+    margin-left: 1rem;
+  }
+  .stem-game {
+    margin-left: 1rem;
+  }
+  .blogs {
+    margin-left: 1rem;
+  }
+  .insta {
+    margin-left: 0.7rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .arrowbutton {
+    display: none;
+  }
+  .logo {
+    margin-top: 3rem;
+    margin-left: -45rem;
+    width: 12rem;
+    height: auto;
+  }
+  .for-desktop {
+    width: 25rem;
+    height: 38rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 3px solid #2fbbf7;
+    background: #fff;
+    margin-left: 30rem;
+    margin-top: 9rem;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .congrats {
+    margin-left: 3.2rem;
+  }
+  .will-reach {
+    margin-left: 3.2rem;
+    margin-top: 2.2rem;
+  }
+  .progres-bar {
+    margin-left: 2.3rem;
+    margin-top: 1rem;
+  }
+  .dash-line {
+    margin-top: -1rem;
+    margin-left: 1rem;
+  }
+  .stem-game {
+    margin-left: 1rem;
+  }
+  .blogs {
+    margin-left: 1rem;
+  }
+  .insta {
+    margin-left: 0.9rem;
+  }
+}
+@media (min-width: 1920px) {
+  .for-desktop {
+    margin-left: 51rem;
+    margin-top: 16rem;
+  }
+}

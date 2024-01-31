@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your meta description goes here" />
+    <meta name="keywords" content="keyword1, keyword2, keyword3" />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="stemgames/images/favicon.png" type="image/x-icon" />
+    <title>Genius Labs</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="Genius Labs" height="65px" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link px-3" href="./stemgames.html">STEM Games</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link px-3" href="./programs.html">Programs</a>
+                    </li>
+                </ul>
+
+
+                <div class="stem-dropdown dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/stem-logo.png" alt="Genius Labs" height="55px" />
+                    </a>
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-home-icon.svg" class="mr-4" height="35px" />
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-robot-icon.svg" class="mr-4" height="35px" />
+                                <span>STEM Games</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-call-icon.svg" class="mr-4" height="35px" />
+                                <span>VIP  Concierge</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-events-icon.svg" class="mr-4" height="35px" />
+                                <span>STEM Events</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-events-icon.svg" class="mr-4" height="35px" />
+                                <span>STEM Events</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-about-icon.svg" class="mr-4" height="35px" />
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-offers-icon.svg" class="mr-4" height="35px" />
+                                <span class="bg-secondary-theme rounded py-2 px-4 text-white">Offers</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center">
+                                <img src="./images/stem-insta-icn.svg" class="mr-4" height="50px" />
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="close" type="button">
+                        Close
+                    </button>
+                </div>
+
+
+                <a href="#" class="px-4 py-2 btn btn-primary ml-3">Offers</a>
+                <button type="button" class="toggle-stem-menu ml-4 btn bg-transparent mt-2 shadow-none dropdown-toggle"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg class="" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.85 12.375H1.15C0.845002 12.375 0.552494 12.2301 0.336827 11.9723C0.121161 11.7144 0 11.3646 0 11C0 10.6353 0.121161 10.2856 0.336827 10.0277C0.552494 9.76987 0.845002 9.625 1.15 9.625H21.85C22.155 9.625 22.4475 9.76987 22.6632 10.0277C22.8788 10.2856 23 10.6353 23 11C23 11.3646 22.8788 11.7144 22.6632 11.9723C22.4475 12.2301 22.155 12.375 21.85 12.375ZM21.85 2.75H1.15C0.845002 2.75 0.552494 2.60513 0.336827 2.34728C0.121161 2.08941 0 1.73968 0 1.375C0 1.01032 0.121161 0.660591 0.336827 0.402724C0.552494 0.14487 0.845002 0 1.15 0H21.85C22.155 0 22.4475 0.14487 22.6632 0.402724C22.8788 0.660591 23 1.01032 23 1.375C23 1.73968 22.8788 2.08941 22.6632 2.34728C22.4475 2.60513 22.155 2.75 21.85 2.75ZM21.85 22H1.15C0.845002 22 0.552494 21.8551 0.336827 21.5973C0.121161 21.3395 0 20.9897 0 20.625C0 20.2603 0.121161 19.9105 0.336827 19.6527C0.552494 19.3949 0.845002 19.25 1.15 19.25H21.85C22.155 19.25 22.4475 19.3949 22.6632 19.6527C22.8788 19.9105 23 20.2603 23 20.625C23 20.9897 22.8788 21.3395 22.6632 21.5973C22.4475 21.8551 22.155 22 21.85 22Z"
+                            fill="#092139" />
+                    </svg>
+
+                </button>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-title pt-5">
+        <div class="container-fluid px-lg-5">
+            <h1 class="text-gray-500 font-weight-bold top_title "
+                style="border-bottom: 2px dotted #8080808c; color: #685E67;">
+                <img src="./images/study.png" alt="" class="mr-3 study_img">
+                STEM Curious Kids
+                <span class="text-dark-blue">Schedule</span>
+            </h1>
+
+
+        </div>
+    </section>
+
+    <section class="section-batch">
+        <div class="container-fluid  px-lg-5  py-5">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="card schedule_card mb-4 bg-transparent border-0">
+                        <div class="d-flex position-relative">
+                            <div class="batch-blue-header text-center">
+                                BATCH   EUROPA
+                            </div>
+                            <div class="batch-value text-left">
+                                <strong class="best_value position-absolute">Best <br> Value</strong>
+                                <img src="./images/bestvalue.png" alt="" height="100px">
+
+                            </div>
+                        </div>
+                        <div class="card-body border-0 bg-white ">
+                            <div class="row ">
+                                <div class="col-5 order-1">
+
+                                    <div class="start-date-box d-flex align-items-center">
+                                        <span class="text-dark-blue">Start <br>
+                                            Date
+                                        </span>
+                                        <span class="text-secondary-theme pl-lg-5">24 Nov</span>
+                                    </div>
+
+                                    <div class="opening-box row mx-0 mt-3 justify-content-between border">
+                                        <div
+                                            class="h2  opening_no mb-0 openning-count col-3 text-center d-flex flex-column align-items-center justify-content-center font-weight-bold text-white">
+                                            2</div>
+                                        <div class="col-4 text-center open_data">
+                                            <h6 class="text-success font-weight-bold">6 open</h6>
+                                            <p class="mb-0">filling fast</p>
+                                        </div>
+                                        <div class="col-4 text-center light_img">
+                                            <img src="./images/new-y-light.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="tragle_image_box">
+                                        <div class="d-flex ">
+                                            <img src="./images/b-circle.png" alt="" height="21px" width="22px">
+                                            <p class="bg-light  ml-xl-4  ml-lg-2 ml-2">Every session has an <br>
+                                                activity, an experiment <br>
+                                                or an investigation</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="./images/y-circle.png" alt="" height="21px" width="22px">
+                                            <p class=" bg-light mr-3 ml-xl-4  ml-lg-2 ml-2  mb-0 pb-0">Has Coading</p>
+
+                                            <img src="./images/p-circle.png" alt="" height="21px" width="22px">
+                                            <p class="bg-light  ml-xl-4  ml-lg-2 ml-2 pb-0 mb-0 ">Has Coading</p>
+                                        </div>
+                                        <div class="mt-xl-4 mt-lg-2 mt-2">
+
+                                            <a href="curriculum-details.html" class="text-dark">Curriculum&nbsp; Details
+                                                &nbsp;&nbsp;&gt;&gt;</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-7 order-2 friendly-column">
+
+                                    <div class="bg-light rounded-lg h-auto p-3 policy_box">
+                                        <div class="text-right f-company-text">
+                                            <a href="policies.html"
+                                                class="text-dark font-weight-bold s-policy-link">Friendly  Company 
+                                                Policies</a>
+                                        </div>
+                                        <div class="row mr-0 align-items-center mt-4 ">
+                                            <div class="col price font-weight-bold h6 text-center">
+                                                <img src="./images/rotated-line.png" alt=""
+                                                    class="price-cut-line position-absolute">
+                                                <span>&#8377; 9250</span>
+                                                <span class="p-second">&#8377; 7750</span>
+                                                <div class="text-danger font-weight-bold offer-pricbox-dive mt-2">15%
+                                                    Off</div>
+                                            </div>
+
+                                            <div class="text-center">
+                                                <a href="stem-games/schedule.html" class="book-now">Book Now</a>
+                                                <div class="d-flex align-items-center brectes-list">
+                                                    <span class="square-brackets">[</span>
+                                                    <div class="text-center px-2 brectes-data">
+                                                        <p class="mb-0">
+                                                            <small>11 sessions  +</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small>STEM Product Kit</small>
+                                                        </p>
+                                                    </div>
+                                                    <span class="square-brackets">]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-5 hidden-card order-3 mt-lg-3 stem-column">
+                                    <div class="bg-light-grey rounded-lg px-3 py-3 px-lg-3 py-lg-3">
+                                        <img src="./images/stemaccredited.png" alt="Genius Labs" class=" stem_logo" />
+                                        <div class="card bg-light-grey border-light-blue p-2 mt-2">
+                                            <h5 class="text-dark-blue text-center font-weight-bold iit-heading">
+                                                IIT - IIM Faculty
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-7 hidden-card order-4 mb-3 calendar-column mt-5">
+                                    <img src="./images/calender.png" alt="Genius Labs" class="claender_img" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 border-0 bg-transparent" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn toggle-btn">
+                                    <i class="fa fa-angle-down fa-2x text-white" aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card schedule_card mb-4 bg-transparent border-0 ">
+                        <div class="d-flex position-relative">
+                            <div class="batch-pink-header  text-center">
+                                BATCH   DIONE
+                            </div>
+                        </div>
+                        <div class="card-body border-0 bg-white ">
+                            <div class="row ">
+                                <div class="col-5 order-1">
+
+                                    <div class="start-date-box d-flex align-items-center">
+                                        <span class="text-dark-blue">Start <br>
+                                            Date
+                                        </span>
+                                        <span class="text-secondary-theme pl-lg-5">24 Nov</span>
+                                    </div>
+
+                                    <div class="opening-box row mx-0 mt-3 justify-content-between border">
+                                        <div
+                                            class="h2  opening_no mb-0 openning-count col-3 text-center d-flex flex-column align-items-center justify-content-center font-weight-bold text-white">
+                                            2</div>
+                                        <div class="col-4 text-center open_data">
+                                            <h6 class="text-success font-weight-bold">6 open</h6>
+                                            <p class="mb-0">filling fast</p>
+                                        </div>
+                                        <div class="col-4 text-center light_img">
+                                            <img src="./images/new-y-light.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="tragle_image_box">
+                                        <div class="d-flex ">
+                                            <img src="./images/b-circle.png" alt="" height="21px" width="22px">
+                                            <p class="bg-light  ml-xl-4  ml-lg-2 ml-2">Every session has an <br>
+                                                activity, an experiment <br>
+                                                or an investigation</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="./images/y-circle.png" alt="" height="21px" width="22px">
+                                            <p class=" bg-light mr-3 ml-xl-4  ml-lg-2 ml-2  mb-0 pb-0">Has Coading</p>
+
+                                            <img src="./images/p-circle.png" alt="" height="21px" width="22px">
+                                            <p class="bg-light  ml-xl-4  ml-lg-2 ml-2 pb-0 mb-0 ">Has Coading</p>
+                                        </div>
+                                        <div class="mt-xl-4 mt-lg-2 mt-2">
+
+                                            <a href="curriculum-details.html" class="text-dark">Curriculum&nbsp; Details
+                                                &nbsp;&nbsp;&gt;&gt;</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-7 order-2 friendly-column">
+
+                                    <div class="bg-light rounded-lg h-auto p-3 policy_box">
+                                        <div class="text-right f-company-text">
+                                            <a href="policies.html"
+                                                class="text-dark font-weight-bold s-policy-link">Friendly  Company 
+                                                Policies</a>
+                                        </div>
+                                        <div class="row mr-0 align-items-center mt-4 ">
+                                            <div class="col price font-weight-bold h6 text-center">
+                                                <img src="./images/rotated-line.png" alt=""
+                                                    class="price-cut-line position-absolute">
+                                                <span>&#8377; 9250</span>
+                                                <span class="p-second">&#8377; 7750</span>
+                                                <div class="text-danger font-weight-bold offer-pricbox-dive mt-2">15%
+                                                    Off</div>
+                                            </div>
+
+                                            <div class="text-center">
+                                                <a href="stem-games/schedule.html" class="book-now">Book Now</a>
+                                                <div class="d-flex align-items-center brectes-list">
+                                                    <span class="square-brackets">[</span>
+                                                    <div class="text-center px-2 brectes-data">
+                                                        <p class="mb-0">
+                                                            <small>11 sessions  +</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small>STEM Product Kit</small>
+                                                        </p>
+                                                    </div>
+                                                    <span class="square-brackets">]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-5 hidden-card order-3 mt-lg-3 stem-column">
+                                    <div class="bg-light-grey rounded-lg px-3 py-3 px-lg-3 py-lg-3">
+                                        <img src="./images/stemaccredited.png" alt="Genius Labs" class=" stem_logo" />
+                                        <div class="card bg-light-grey border-light-blue p-2 mt-2">
+                                            <h5 class="text-dark-blue text-center font-weight-bold iit-heading">
+                                                IIT - IIM Faculty
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-7 hidden-card order-4 mb-3 calendar-column mt-5">
+                                    <img src="./images/calender.png" alt="Genius Labs" class="claender_img" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 border-0 bg-transparent" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn  toggle-btn">
+                                    <i class="fa fa-angle-down fa-2x text-white" aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 ">
+                    <div class="card schedule_card mb-4 bg-transparent border-0">
+                        <div class="d-flex position-relative">
+                            <div class="batch-yellow-header text-center">
+                                BATCH   TITAN
+                            </div>
+                        </div>
+                        <div class="card-body border-0 bg-white ">
+                            <div class="row ">
+                                <div class="col-5 order-1">
+
+                                    <div class="start-date-box d-flex align-items-center">
+                                        <span class="text-dark-blue">Start <br>
+                                            Date
+                                        </span>
+                                        <span class="text-secondary-theme pl-lg-5">24 Nov</span>
+                                    </div>
+
+                                    <div class="opening-box row mx-0 mt-3 justify-content-between border">
+                                        <div
+                                            class="h2  opening_no mb-0 openning-count col-3 text-center d-flex flex-column align-items-center justify-content-center font-weight-bold text-white">
+                                            2</div>
+                                        <div class="col-4 text-center open_data">
+                                            <h6 class="text-success font-weight-bold">6 open</h6>
+                                            <p class="mb-0">filling fast</p>
+                                        </div>
+                                        <div class="col-4 text-center light_img">
+                                            <img src="./images/new-y-light.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="tragle_image_box">
+                                        <div class="d-flex ">
+                                            <img src="./images/b-circle.png" alt="" height="21px" width="22px">
+                                            <p class="bg-light  ml-xl-4  ml-lg-2 ml-2">Every session has an <br>
+                                                activity, an experiment <br>
+                                                or an investigation</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="./images/y-circle.png" alt="" height="21px" width="22px">
+                                            <p class=" bg-light mr-3 ml-xl-4  ml-lg-2 ml-2  mb-0 pb-0">Has Coading</p>
+
+                                            <img src="./images/p-circle.png" alt="" height="21px" width="22px">
+                                            <p class="bg-light  ml-xl-4  ml-lg-2 ml-2 pb-0 mb-0 ">Has Coading</p>
+                                        </div>
+                                        <div class="mt-xl-4 mt-lg-2 mt-2">
+
+                                            <a href="curriculum-details.html" class="text-dark">Curriculum&nbsp; Details
+                                                &nbsp;&nbsp;&gt;&gt;</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-7 order-2 friendly-column">
+
+                                    <div class="bg-light rounded-lg h-auto p-3 policy_box">
+                                        <div class="text-right f-company-text">
+                                            <a href="policies.html"
+                                                class="text-dark font-weight-bold s-policy-link">Friendly  Company 
+                                                Policies</a>
+                                        </div>
+                                        <div class="row mr-0 align-items-center mt-4 ">
+                                            <div class="col price font-weight-bold h6 text-center">
+                                                <img src="./images/rotated-line.png" alt=""
+                                                    class="price-cut-line position-absolute">
+                                                <span>&#8377; 9250</span>
+                                                <span class="p-second">&#8377; 7750</span>
+                                                <div class="text-danger font-weight-bold offer-pricbox-dive mt-2">15%
+                                                    Off</div>
+                                            </div>
+
+                                            <div class="text-center">
+                                                <a href="stem-games/schedule.html" class="book-now">Book Now</a>
+                                                <div class="d-flex align-items-center brectes-list">
+                                                    <span class="square-brackets">[</span>
+                                                    <div class="text-center px-2 brectes-data">
+                                                        <p class="mb-0">
+                                                            <small>11 sessions  +</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small>STEM Product Kit</small>
+                                                        </p>
+                                                    </div>
+                                                    <span class="square-brackets">]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-5 hidden-card order-3 mt-lg-3 stem-column">
+                                    <div class="bg-light-grey rounded-lg px-3 py-3 px-lg-3 py-lg-3">
+                                        <img src="./images/stemaccredited.png" alt="Genius Labs" class=" stem_logo" />
+                                        <div class="card bg-light-grey border-light-blue p-2 mt-2">
+                                            <h5 class="text-dark-blue text-center font-weight-bold iit-heading">
+                                                IIT - IIM Faculty
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-7 hidden-card order-4 mb-3 calendar-column mt-5">
+                                    <img src="./images/calender.png" alt="Genius Labs" class="claender_img" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 border-0 bg-transparent" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn  toggle-btn">
+                                    <i class="fa fa-angle-down fa-2x text-white" aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- bottom slider -->
+
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="stem-banner-carousel owl-carousel owl-theme position-relative ">
+                        <div class="item">
+                            <div class="bottom-slider mt-0">
+                                <img src="./images/b-slider1.jpg" alt="Genius Labs" class="w-100 h-100 rounded-lg">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bottom-slider mt-0">
+                                <img src="./images/b-slider2.jpg" alt="Genius Labs" class="w-100 h-100 rounded-lg">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bottom-slider mt-0">
+                                <img src="./images/b-slider3.jpg" alt="Genius Labs" class="w-100 h-100 rounded-lg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- bottom small card -->
+
+            <h6 class="bottom_other_program font-weight-bold py-5">Other STEM Programs </h6>
+
+            <div class="row">
+                <div class="col-md-3 col-6 mb-2">
+                    <div class="s-bottom-img text-center">
+                        <a href="#">
+                            <img src="./images/stemkids 2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-2">
+                    <div class="s-bottom-img text-center">
+                        <a href="#">
+                            <img src="./images/stemkids 2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="s-bottom-img text-center">
+                        <a href="#">
+                            <img src="./images/stemkids 2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="s-bottom-img text-center">
+                        <a href="#">
+                            <img src="./images/stemkids 2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- start footer -->
+    <footer class="footer bg-secondary-theme pt-5 pb-lg-5 pb-0 px-lg-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <img src="./images/footer-logo.png" alt="Genius Labs" height="65px" />
+                    <p class="text-white mt-4">Welcome to Geniuslabs, where we are dedicated to inspiring the next
+                        generation of
+                        innovators and problem-solvers. Our institution is proud to offer the finest STEM curriculum for
+                        kids, led
+                        by a team of exceptional educators. With a focus on hands-on learning, creativity, and critical
+                        thinking,
+                        our courses empower young minds to excel in science, technology, engineering, and mathematics.
+                    </p>
+                    <hr class="bg-white" />
+                </div>
+                <div class="col-lg-8 mb-3">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <h6 class="text-white mb-3">GENIUSLABS</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a class="text-white" href="#">Home</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">About Us</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Curriculum</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Blog</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Policy</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-8">
+                            <h6 class="text-white mb-3">Our Programs</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a class="text-white" href="#">DIY</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">IOT Cyber Space</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Coding</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Animation</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Applied Robotics</a></li>
+                                <li class="mb-2"><a class="text-white" href="#">Research Groups</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pl-lg-5 mb-3 border-left border-white">
+                    <ul class="list-unstyled">
+                        <li class="text-white mb-2">
+                            Email us at<a href="mailto:hello@geniuslabs.in" class="text-white"> hello@geniuslabs.in</a>
+                        </li>
+                        <li class="text-white mb-2">
+                            Call us at<a href="tel:+91 9922992323" class="text-white"> +91 9922992323</a>
+                        </li>
+                        <li class="text-white mb-2">
+                            Visit us at B-43, Sector-63, Noida, Uttar Pradesh - 201301
+                        </li>
+                    </ul>
+                    <h5 class="text-white my-4">Follow us on:</h5>
+                    <ul class="social-icons d-flex align-items-center list-unstyled">
+                        <li class="mr-2">
+                            <a href="#" class="bg-white rounded-circle">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="mr-2">
+                            <a href="#" class="bg-white rounded-circle">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="mr-2">
+                            <a href="#" class="bg-white rounded-circle">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/custom.js"></script>
+
+</html>

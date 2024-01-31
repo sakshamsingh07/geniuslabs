@@ -1,0 +1,423 @@
+.custom-bg {
+  background-color: #fdfbfbff; /* Replace with your desired background color */
+}
+.arrow {
+  width: 1.625rem;
+  height: 1.625rem;
+  flex-shrink: 0;
+  margin-top: 1.3rem;
+  margin-left: 0.5rem;
+}
+a.arrowbutton {
+  text-decoration: none; /* Remove underline */
+  background-color: transparent; /* Remove any background color */
+  border: none; /* Remove any border */
+  outline: none; /* Remove the outline when clicked */
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile devices */
+}
+.logo {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: -2rem;
+  width: 8.125rem;
+  height: 2.6875rem;
+  border-radius: 0.7rem;
+}
+.more {
+  margin-top: 3rem;
+  margin-left: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 19.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #139cdd;
+}
+.progress-bar-child,
+.progress-bar-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 1rem;
+  margin-top: -1rem;
+  background-color: gainsboro;
+}
+.progress-bar-item {
+  width: 45%;
+  right: 83.33%;
+  background-color: #139cdd;
+}
+.progres-bar {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 16px;
+  width: 314px;
+  height: 15px;
+}
+.your-child-interest {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+  font-weight: 700;
+  color: #0c5394;
+  display: inline-block;
+  width: 17rem;
+  height: 1.5rem;
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.ellipse-div {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #5bbaf2ff;
+  box-sizing: border-box;
+
+  width: 100px;
+  height: 100px;
+}
+.game-dev {
+  position: absolute;
+  top: 42px;
+  left: 12px;
+  display: inline-block;
+  width: 86px;
+  height: 28px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 204px;
+  left: 208px;
+  border-radius: 50%;
+  border: 2px solid #ff6790ff;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+.chemistry {
+  position: absolute;
+  top: 40px;
+  left: 13px;
+  display: inline-block;
+  width: 86px;
+  height: 28px;
+}
+.frame-child2 {
+  position: absolute;
+  top: 165px;
+  left: 92px;
+  border-radius: 50%;
+  border: 2px solid #5bbaf2ff;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+.animation {
+  position: absolute;
+  top: 42px;
+  left: 13px;
+  display: inline-block;
+  width: 86px;
+  height: 28px;
+}
+.frame-child3 {
+  position: absolute;
+  top: 249px;
+  left: 2px;
+  border-radius: 50%;
+  border: 2px solid #5bbaf2ff;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+.engineer {
+  position: absolute;
+  top: 40px;
+  left: 6px;
+  display: inline-block;
+  width: 99px;
+  height: 28px;
+}
+.frame-child4 {
+  position: absolute;
+  top: 73px;
+  left: 115px;
+  border-radius: 50%;
+  border: 2px solid #fedf07ff;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+}
+.coding {
+  position: absolute;
+  top: 32px;
+  left: 14px;
+  display: inline-block;
+  width: 59px;
+  height: 23px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 135px;
+  left: 4px;
+  border-radius: 50%;
+  border: 2px solid #fedf07ff;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+}
+.iot {
+  position: absolute;
+  top: 30px;
+  left: 26px;
+  display: inline-block;
+  width: 31px;
+  height: 23px;
+}
+.frame-child6 {
+  position: absolute;
+  top: 102px;
+  left: 214px;
+  border-radius: 50%;
+  border: 2px solid #5bbaf2ff;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+}
+.space {
+  position: absolute;
+  top: 30px;
+  left: 17px;
+  display: inline-block;
+  width: 49px;
+  height: 23px;
+}
+.frame-child7 {
+  position: absolute;
+  top: 281px;
+  left: 120px;
+  border-radius: 50%;
+  border: 2px solid #fedf07ff;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+}
+.physics {
+  position: absolute;
+  top: 30px;
+  left: 13px;
+  display: inline-block;
+  width: 62px;
+  height: 23px;
+}
+.frame-child8 {
+  position: absolute;
+  top: 0;
+  left: 183px;
+  border-radius: 50%;
+  border: 2px solid #ff6790ff;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+}
+.robotics {
+  position: absolute;
+  top: 32px;
+  left: 8px;
+  display: inline-block;
+  width: 74px;
+  height: 23px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 86px;
+  left: 23px;
+  width: 308px;
+  height: 361px;
+  font-size: smaller;
+  font-family: "Montserrat";
+}
+.android-large-1-child {
+  position: absolute;
+  top: 400px;
+  left: 5px;
+  width: 254px;
+  height: 132px;
+  overflow: hidden;
+}
+.selectable.selected {
+  /* background-color:deepskyblue;
+    color:deepskyblue;
+    border-color: deepskyblue; */
+  background-color: #5bbaf2ff;
+  fill: var(--Primary, #5bbaf2ff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.yellow.selectable.selected {
+  /* background-color:deepskyblue;
+    color:deepskyblue;
+    border-color: deepskyblue; */
+  background-color: #fedf07ff;
+  fill: var(--Primary, #fedf07ff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.pink.selectable.selected {
+  /* background-color:deepskyblue;
+    color:deepskyblue;
+    border-color: deepskyblue; */
+  background-color: #ff6790ff;
+  fill: var(--Primary, #ff6790ff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.selected-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.selected-option {
+  background-color: whitesmoke;
+  color: #5bbaf2ff;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: smaller;
+  font-family: "Montserrat";
+}
+
+.selected b {
+  color: white;
+}
+.continue-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  border-radius: 0.3125rem;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 28rem;
+  margin-left: 17rem;
+  background: none;
+}
+.mask-group-icon {
+  position: absolute;
+  top: -2.5rem;
+  left: 0rem;
+  width: 2.9rem;
+  height: 2.9rem;
+  background: none;
+  object-fit: cover;
+}
+button.continue-parent {
+  text-decoration: none; /* Remove underline */
+  background-color: transparent; /* Remove any background color */
+  border: none; /* Remove any border */
+  outline: none; /* Remove the outline when clicked */
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile devices */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .arrowbutton {
+    display: none;
+  }
+  .logo {
+    margin-top: 2rem;
+    margin-left: -36rem;
+    width: 12rem;
+    height: auto;
+  }
+  .for-desktop {
+    width: 25rem;
+    height: 40rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 3px solid #2fbbf7;
+    background: #fff;
+    margin-left: 20rem;
+    margin-top: 12rem;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .mask-group-icon {
+    margin-top: 0rem;
+    margin-left: 3rem;
+  }
+  .more {
+    margin-left: 3.2rem;
+  }
+  .your-child-interest {
+    margin-left: 3.2rem;
+  }
+  .progres-bar {
+    margin-left: 3rem;
+  }
+  .ellipse-parent {
+    margin-left: 1.5rem;
+    margin-top: 0rem;
+  }
+  .android-large-1-child {
+    margin-top: -3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .arrowbutton {
+    display: none;
+  }
+  .logo {
+    margin-top: 2rem;
+    margin-left: -36rem;
+    width: 12rem;
+    height: auto;
+  }
+  .for-desktop {
+    width: 25rem;
+    height: 40rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 3px solid #2fbbf7;
+    background: #fff;
+    margin-left: 30rem;
+    margin-top: 9rem;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .mask-group-icon {
+    margin-top: 0rem;
+    margin-left: 3rem;
+  }
+  .more {
+    margin-left: 3.2rem;
+  }
+  .your-child-interest {
+    margin-left: 3.2rem;
+  }
+  .progres-bar {
+    margin-left: 3rem;
+  }
+  .ellipse-parent {
+    margin-left: 1.5rem;
+    margin-top: 0rem;
+  }
+  .android-large-1-child {
+    margin-top: -3rem;
+  }
+}
+@media (min-width: 1920px) {
+  .for-desktop {
+    margin-left: 51rem;
+    margin-top: 16rem;
+  }
+}
